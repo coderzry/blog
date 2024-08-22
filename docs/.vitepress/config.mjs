@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/coderzry-blog/',
   title: "coderzry的小站",
   description: "A VitePress Site",
   // head解决无法加载在线图片
