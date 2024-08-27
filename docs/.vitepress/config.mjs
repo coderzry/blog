@@ -19,15 +19,15 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '开发提效', link: '/内网开发提效指南' }
+      { text: '技术总结', link: '/skill/内网开发提效指南' }
     ],
 
     sidebar: [
       {
-        text: '案例',
+        text: '技术总结',
         items: [
-          { text: '内网开发提效指南', link: '/内网开发提效指南' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '内网开发提效指南', link: '/skill/内网开发提效指南' },
+          { text: '富文本编辑器改造', link: '/skill/富文本编辑器改造' }
         ]
       }
     ],

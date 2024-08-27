@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /内网开发提效指南
+      link: /skill/内网开发提效指南
     - theme: alt
       text: API Examples
       link: /api-examples
