@@ -5,10 +5,10 @@ layout: home
 hero:
   name: "coderzry的小站"
   text: "记录技术人生"
-  tagline: My great project tagline
+  tagline: 路虽远，行则将至
   actions:
     - theme: brand
-      text: 内网开发提效指南
+      text: 开始阅读
       link: /内网开发提效指南
     - theme: alt
       text: API Examples
