@@ -19,41 +19,28 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '技术总结', link: '/skill/内网开发提效指南' }
+      { text: '技术记录', link: '/skill/内网开发提效指南' },
+      { text: '年度总结', link: '/summary/2023年度总结' }
     ],
 
     sidebar: [
       {
-        text: '技术总结',
+        text: '技术记录',
         items: [
           { text: '内网开发提效指南', link: '/skill/内网开发提效指南' },
           { text: '富文本编辑器改造', link: '/skill/富文本编辑器改造' }
+        ]
+      },
+      {
+        text: '年度总结',
+        items: [
+          { text: '年度总结', link: '/summary/2023年度总结' }
         ]
       }
     ],
 
     search: {
-      provider: 'local',
-      options: {
-        locales: {
-          zh: {
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换'
-                }
-              }
-            }
-          }
-        }
-      }
+      provider: 'local'
     },
 
     socialLinks: [
