@@ -20,8 +20,32 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '技术记录', link: '/skill/内网开发提效指南' },
-      { text: '年度总结', link: '/summary/2023年度总结' },
-      { text: 'vue技巧', link: '/vue-tips/' }
+      { 
+        text: '学习记录',
+        items: [
+          { text: 'vue', link: '/study/vue/' },
+          { text: 'react', link: '/study/react/' },
+          { text: 'node', link: '/study/node/' },
+        ]
+      },
+      {
+        text: '年度总结',
+        items: [
+          { text: '2023年', link: '/summary/2023年度总结' }
+        ]
+      },
+      {
+        text: '100个vue小技巧',
+        items: [
+          { text: 'Forgotten Features', link: '/vue-tips/forgotten-features/' },
+          { text: 'Slots and Reusability', link: '/vue-tips/slots-and-reusability/' },
+          { text: 'Logic Lore', link: '/vue-tips/logic-lore/' },
+          { text: 'CSS Tips', link: '/vue-tips/css-tips/' },
+          { text: 'Powerful Patterns', link: '/vue-tips/powerful-patterns/' },
+          { text: 'Template Tidbits', link: '/vue-tips/template-tidbits/' },
+          { text: 'All the Others', link: '/vue-tips/all-the-others/' },
+        ]
+      }
     ],
 
     sidebar: {
@@ -49,7 +73,7 @@ export default defineConfig({
     },
 
     lastUpdated: {
-      text: 'Updated at'
+      text: '最后更新于'
     },
 
     socialLinks: [
