@@ -7,7 +7,7 @@ hero:
   text: "记录技术人生"
   tagline: 路虽远，行则将至
   image:
-    src: /logo.jpg
+    src: /logo.svg
     alt: logo
   actions:
     - theme: brand
