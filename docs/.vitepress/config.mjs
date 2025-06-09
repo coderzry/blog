@@ -26,7 +26,7 @@ export default defineConfig({
           // { text: 'vue', link: '/study/vue/' },
           // { text: 'react', link: '/study/react/' },
           // { text: 'node', link: '/study/node/' },
-          { text: '设计模式', link: '/study/design-pattern/' },
+          { text: '设计模式', link: '/study/design-pattern/1.设计模式介绍' },
         ]
       },
       {
@@ -85,7 +85,8 @@ export default defineConfig({
         {
           text: '设计模式',
           items: [
-            { text: '策略模式', link: '/study/design-pattern/策略模式' }
+            { text: '设计模式介绍', link: '/study/design-pattern/1.设计模式介绍' },
+            { text: '策略模式', link: '/study/design-pattern/2.策略模式' }
           ]
         }
       ],
