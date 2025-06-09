@@ -23,9 +23,9 @@ export default defineConfig({
       { 
         text: '学习记录',
         items: [
-          { text: 'vue', link: '/study/vue/' },
-          { text: 'react', link: '/study/react/' },
-          { text: 'node', link: '/study/node/' },
+          // { text: 'vue', link: '/study/vue/' },
+          // { text: 'react', link: '/study/react/' },
+          // { text: 'node', link: '/study/node/' },
           { text: '设计模式', link: '/study/design-pattern/' },
         ]
       },
